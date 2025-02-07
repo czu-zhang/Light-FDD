@@ -26,8 +26,8 @@ ultralytics-main/
 ├── ultralytics/nn/modules/block.py
 ├── ultralytics/nn/tasks.py
 (2) Add attention.py to the ultralytics/nn/modules/
-(3) Add olov8-FasterNet_ContextGuided_RFCBAM_one_vovd.yaml to the ultralytics/cfg/models/v8
-(4) Dowload the fabric dataset.
+(3) Add yolov8-FasterNet_ContextGuided_RFCBAM_one_vovd.yaml to the ultralytics/cfg/models/v8
+(4) Dowload the fabric dataset. The data is  avaiable at  https://universe.roboflow.com/ak02/fabricdefect-zqt9u. 
 (5) Run split_data.py
 (6) Run train.py
 (7) Run test.py
